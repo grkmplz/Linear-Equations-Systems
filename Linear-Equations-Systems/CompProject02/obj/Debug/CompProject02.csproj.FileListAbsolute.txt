@@ -10,3 +10,15 @@ C:\Users\gorke\Desktop\Linear-Equations-Systems-master\CompProject02\obj\Debug\C
 C:\Users\gorke\Desktop\Linear-Equations-Systems-master\CompProject02\obj\Debug\CompProject02.csproj.CopyComplete
 C:\Users\gorke\Desktop\Linear-Equations-Systems-master\CompProject02\obj\Debug\CompProject02.exe
 C:\Users\gorke\Desktop\Linear-Equations-Systems-master\CompProject02\obj\Debug\CompProject02.pdb
+C:\Users\gorke\Desktop\Linear-Equations-Systems\CompProject02\bin\Debug\CompProject02.exe.config
+C:\Users\gorke\Desktop\Linear-Equations-Systems\CompProject02\bin\Debug\CompProject02.exe
+C:\Users\gorke\Desktop\Linear-Equations-Systems\CompProject02\bin\Debug\CompProject02.pdb
+C:\Users\gorke\Desktop\Linear-Equations-Systems\CompProject02\bin\Debug\nunit.framework.dll
+C:\Users\gorke\Desktop\Linear-Equations-Systems\CompProject02\bin\Debug\nunit.framework.pdb
+C:\Users\gorke\Desktop\Linear-Equations-Systems\CompProject02\bin\Debug\nunit.framework.xml
+C:\Users\gorke\Desktop\Linear-Equations-Systems\CompProject02\obj\Debug\CompProject02.csproj.AssemblyReference.cache
+C:\Users\gorke\Desktop\Linear-Equations-Systems\CompProject02\obj\Debug\CompProject02.csproj.SuggestedBindingRedirects.cache
+C:\Users\gorke\Desktop\Linear-Equations-Systems\CompProject02\obj\Debug\CompProject02.csproj.CoreCompileInputs.cache
+C:\Users\gorke\Desktop\Linear-Equations-Systems\CompProject02\obj\Debug\CompProject02.csproj.CopyComplete
+C:\Users\gorke\Desktop\Linear-Equations-Systems\CompProject02\obj\Debug\CompProject02.exe
+C:\Users\gorke\Desktop\Linear-Equations-Systems\CompProject02\obj\Debug\CompProject02.pdb

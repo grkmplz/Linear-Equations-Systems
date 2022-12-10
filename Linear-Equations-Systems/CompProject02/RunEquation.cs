@@ -7,32 +7,32 @@ namespace CompProject02
 {
     class RunEqu
     {
-        public List<MainEquation> equations = new List<MainEquation>();
+        public List<MainEquation> equationMain = new List<MainEquation>();
         private RunNumber_Numeral operations = new RunNumber_Numeral();
         private double[][] Matrix;
         private double[] Solutions;
 
-        public void AddEquation(MainEquation eq)
+        public void Equation_Add(MainEquation eq)
         {
-            equations.Add(eq);
+            equationMain.Add(eq);
         }
 
         public void EquPrint()
         {
-            foreach (MainEquation item in equations)
+            foreach (MainEquation item in equationMain)
             {
-                Console.WriteLine(item.GetFormOfEquation);
+                Console.WriteLine(item.Input_FormofEqu);
             }
         }
 
-        private double[][] AugmentedMatrix()
+        private double[][] AugMatrix()
         {
-            int Size = equations.Count();
+            int Size = equationMain.Count();
             double[][] array = new double[Size][];
 
             for (int i = 0; i < array.Length; i++)
             {
-                string[] Temp = equations[i].GetMatrixAugRow;
+                string[] Temp = equationMain[i].Input_Matrix_Row;
                 double[] arrayTemp = new double[Temp.Length];
 
                 for (int t = 0; t < arrayTemp.Length; t++)
@@ -45,19 +45,19 @@ namespace CompProject02
 
             return array;
         }
-        private void SetAugMatrix()
+        private void ContructAugmatrix()
         {
-            this.Matrix = AugmentedMatrix();
+            this.Matrix = AugMatrix();
         }
 
-        private void SetSolutions()
+        private void ConstrtSolution()
         {
-            SetAugMatrix();
+            ContructAugmatrix();
             this.Solutions = operations.SolveEquation(this.Matrix);
         }
         public void PrintSolution()
         {
-            SetSolutions();
+            ConstrtSolution();
 
             for (int i = 0; i < Solutions.Length; i++)
             {

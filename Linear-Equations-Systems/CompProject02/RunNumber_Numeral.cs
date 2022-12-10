@@ -30,7 +30,6 @@ namespace CompProject02
             {
                 if (row[i][i] == 0 && !Pivot(row, i, i)) return null;
 
-                // Forward Elimination
                 for (int j = i; j < row.Length; j++)
                 {
                     double[] d = new double[length];
